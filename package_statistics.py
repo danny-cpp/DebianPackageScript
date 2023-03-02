@@ -38,3 +38,4 @@ if __name__ == '__main__':
         row = [i, str(package).replace("usr/share/", ""), count]
         print("{: >2}.{: >40} {: >10}".format(*row))
         i = i + 1
+
